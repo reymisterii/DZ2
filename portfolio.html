@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- шабка сайта -->
-    <header>
+    <header class="header-item">
       <div class="container">
         <div class="header-items">
           <nav class="nav-list">
@@ -34,8 +34,9 @@
               </li>
               <li class="nav-text-nav">
                 <a href="./portfolio.html" class="nav-text current"
-                  >Портфолио</a
+                  >Портфолио<div class="stick-portfolio"></div></a
                 >
+                <!-- <div class="stick-portfolio"></div> -->
               </li>
               <li class="nav-text-nav">
                 <a href="#" class="nav-text">Контакты</a>
@@ -46,11 +47,15 @@
           <ul class="ml-first">
             <li class="mail-addres-nav">
               <a href="mailto:info@devstudio.com" class="mail-addres"
+                ><svg class="mail-addres-icon" width="16" height="12">
+                  <use href="./imeges/symbol-defs.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
             <li class="mailo-addres-nav">
               <a href="tel:+380961111111" class="mail-addres"
+                ><svg class="mail-addres-icon" width="10" height="16">
+                  <use href="./imeges/symbol-defs.svg#icon-phoun"></use></svg
                 >+38 096 111 11 11</a
               >
             </li>
@@ -91,112 +96,220 @@
           <h1 class="invisible-text">портфолио готовых работ</h1>
           <ul class="items">
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/imgp.jpg"
-                alt="laptop with pictures"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/imgp.jpg"
+                    alt="laptop with pictures"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Технокряк</h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img1p.jpg"
-                alt="basketball players"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img1p.jpg"
+                    alt="basketball players"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Постер New Orlean vs Golden Star</h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/seafood.jpg"
-                alt="poster of seafood restaurant"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Ресторан Seafood</h2>
-                <p>Приложение</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/seafood.jpg"
+                    alt="poster of seafood restaurant"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Ресторан Seafood</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img3p.jpg"
-                alt="headphones"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Проект Prime</h2>
-                <p>Маркетинг</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img3p.jpg"
+                    alt="headphones"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Проект Prime</h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img4p.jpg"
-                alt="boxes"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Проект Boxes</h2>
-                <p>Приложение</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img4p.jpg"
+                    alt="boxes"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Проект Boxes</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img5p.jpg"
-                alt="monoblock"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img5p.jpg"
+                    alt="monoblock"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>inspiration has no Borders</h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img6p.jpg"
-                alt="book"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Издание Limited Edition</h2>
-                <p>Дизайн</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img6p.jpg"
+                    alt="book"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Издание Limited Edition</h2>
+                  <p>Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img7p.jpg"
-                alt="lab card"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Проект LAB</h2>
-                <p>Маркетинг</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img7p.jpg"
+                    alt="lab card"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Проект LAB</h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <img
-                class="card-image"
-                src="./imeges/img8p.jpg"
-                alt="computer work"
-                width="370"
-              />
-              <div class="item-list">
-                <h2>Growing Business</h2>
-                <p>Приложение</p>
-              </div>
+              <a href="#" class="item-card-image">
+                <div class="box">
+                  <div class="overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  <img
+                    class="card-image"
+                    src="./imeges/img8p.jpg"
+                    alt="computer work"
+                    width="370"
+                  />
+                </div>
+                <div class="item-list">
+                  <h2>Growing Business</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -204,30 +317,68 @@
     </main>
     <footer class="container-two">
       <div class="container">
-        <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
-          ><span class="color-one">Web</span
-          ><span class="color-white">Studio</span></a
-        >
-        <address>
-          <ul>
-            <li class="ml-next">
-              <a href="#" class="mail-addres-first">
-                г. Киев, пр-т Леси Украинки,26</a
-              >
-            </li>
-            <li class="ml-next">
-              <a href="mailto:info@devstudio.com" class="mail-addres end"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="ml-next">
-              <a href="tel:+380961111111" class="mail-addres end"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="container-next">
+          <div>
+            <a href="https://jade-lebkuchen-17b9fb.netlify.app/" class="logo"
+              ><span class="color-one">Web</span
+              ><span class="color-white">Studio</span></a
+            >
+            <address>
+              <ul>
+                <li class="ml-next">
+                  <a href="#" class="mail-addres-first down">
+                    г. Киев, пр-т Леси Украинки,26</a
+                  >
+                </li>
+                <li class="ml-next">
+                  <a href="mailto:info@devstudio.com" class="mail-addres end"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="ml-next">
+                  <a href="tel:+380961111111" class="mail-addres end"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="card-image-icons-end">
+            <p class="title-next">присоединяйтесь</p>
+            <ul class="itemsdz">
+              <li class="itemdzz">
+                <a href="#" class="itemdz-gray">
+                  <svg class="icondz" width="24" height="24">
+                    <use href="./imeges/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="itemdzz">
+                <a href="#" class="itemdz-gray">
+                  <svg class="icondz" width="24" height="24">
+                    <use href="./imeges/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="itemdzz">
+                <a href="#" class="itemdz-gray">
+                  <svg class="icondz" width="24" height="24">
+                    <use href="./imeges/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="itemdzz">
+                <a href="#" class="itemdz-gray">
+                  <svg class="icondz" width="24" height="24">
+                    <use href="./imeges/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
 </html>
+  transition-duration: 250ms;
